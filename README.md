@@ -6,8 +6,8 @@ sms anonymous &amp; free
 
 
  * git clone "https://github.com/X-HACKRAWI/FreeSms"
- * cd FakeSms
- * python3 fakwsms.py
+ * cd FreeSms
+ * python3 fakesms.py
  
  
  
