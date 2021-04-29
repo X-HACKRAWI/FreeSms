@@ -38,7 +38,7 @@ resp = requests.post('https://textbelt.com/text', {
 
 try:
     int(p) 
-    print("\n\t\t[ + ] plase whate ..... ")
+    print("\n\t\t[ + ] plase wait ..... ")
     time.sleep( 5 )
     print(resp.json())
     
