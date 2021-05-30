@@ -17,7 +17,7 @@ If output looks like `Python 3` or above - Congrats, Python 3 is installed prope
 
 - Do not use this to harm others.
 - This script is only for educational purposes or to prank.
-- ** Developer Not are responsible for the misuse of X-SMS.**
+- ** Developer Not are responsible for the misuse of FreeSms.**
 <br>
 
 ## Features:
