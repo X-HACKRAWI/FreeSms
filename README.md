@@ -1,4 +1,4 @@
-<h1 align="center">X-SMS v2</h1>
+<h1 align="center">FreeSms v2</h1>
 <p align="center">Anonymous Message Sender for Linux And Termux.</p><br>
 
 ## Note:
@@ -6,7 +6,7 @@
 - The script requires working network connection to work.
 - No balance will be deducted for using this script to send SMS.
 - Don't put spaces in between phone number (Ex- 99999 99999)
-- Make sure you are using the latest version of X-SMS
+- Make sure you are using the latest version of FreeSms
 - Make sure you are using Python v3.
 
 Here's how you can check it. Type this command in your terminal.
