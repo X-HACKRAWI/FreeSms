@@ -1,4 +1,4 @@
-<h1 align="center">FreeSms v2</h1>
+<h1 align="center">FreeSms v2.1</h1>
 <p align="center">Anonymous Message Sender for Linux And Termux.</p><br>
 
 ## Note:
@@ -60,5 +60,5 @@ cd FreeSms
 sudo bash Run.sh
 ```
  
- 
- 
+## update:
+ [+] Adding Auto-Update Feature.
