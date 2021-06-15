@@ -3,7 +3,7 @@ clear
 echo -e "\e[4;31m Yemen Shield !!! \e[0m"
 echo -e "\e[1;32m Presents \e[0m"
 echo -e "\e[1;34m"
-figlet -f slant X-SMS
+figlet -f slant X-HACKRAWI
 echo "Press Enter To Launch"
 read a1
 if [[ -s update.shield.yemen ]];then
@@ -27,8 +27,7 @@ rm *.xxx >/dev/null 2>&1
 clear
 echo -e "\e[1;31m"
 figlet -f slant X-SMS| lolcat
-echo -e "\e[1;34m Created By \e[1;32m"  #blue color
-toilet -f mono12 -F border X-HACKRAWI | lolcat
+echo -e "\e[1;34m Created By \e[1;32m"  #blue Color
 echo -e "\e[4;34mThis Tool Is Created By Yemen Shield  \e[0m" #underline+blue
 echo -e "\e[1;34mFor Any Queries !!!\e[0m"
 echo -e "\e[1;32m        instagram: https://www.instagram.com/hackrawi11/ \e[0m" #yellow
@@ -41,22 +40,23 @@ echo "Enter 2 To  Track X-SMS"  #white
 echo "Enter 3 To  Update "
 echo "Enter 4 To  Check Features "
 echo "Enter 5 To  Exit "
-read ch
-if [ $ch -eq 1 ];then
+
+read -p  "     insert num :> " menu
+if [ $menu = 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
 python3 fakesms.py
 rm *.xxx >/dev/null 2>&1
 exit 0
-elif [ $ch -eq 2 ];then
+elif [ $menu = 2 ];then
 clear
 echo -e "\e[1;32m"
 echo 'Track X-SMS'> call.xxx
 python3 fakesms.py track
 rm *.xxx >/dev/null 2>&1
 exit 0
-elif [ $ch -eq 3 ];then
+elif [ $menu = 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Requesting Update From Source..."
@@ -78,7 +78,9 @@ echo -e "\e[1;34m Press Enter To Refresh..."
 read a6
 ./Run.sh
 exit
-elif [ $ch -eq 4 ];then
+echo " "
+echo " "
+elif [ $menu = 4 ];then
 clear
 echo -e "\e[1;33m"
 figlet -f slant X-SMS| lolcat
@@ -102,7 +104,7 @@ echo  " "
 echo "Press Enter To Return To Main Menu"
 read a3
 clear
-elif [ $ch -eq 5 ];then
+elif [ $menu = 5 ];then
 clear
 echo -e "\e[1;31m"
 figlet -f slant X-SMS| lolcat
