@@ -61,5 +61,5 @@ sudo bash Run.sh
 ```
  
 ## update:
-#V2.1
+# V2.1
 [+] Adding Auto-Update Feature.
